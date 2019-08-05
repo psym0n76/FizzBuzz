@@ -18,7 +18,7 @@ namespace ConsoleUi
             response = Console.ReadLine();
 
 
-            var fizzBuzz = FizzBuzzFactory.Get(response);
+            var fizzBuzz = FizzBuzzFactory.GetFactoryClassVersion(response);
 
             for (var i = 1; i <= result; i++)
             {
